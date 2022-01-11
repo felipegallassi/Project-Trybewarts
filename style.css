@@ -25,4 +25,9 @@ main {
   height: 500px;
 } 
 
+#section-2 {
+  display: flex;
+}
+
+
 
