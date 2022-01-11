@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header class="header">
-    <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo" 
-    alt= "logo da trybewarts">
+  <header class="header">
+    <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="logo da trybewarts">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <div>
-      <form  action="" class="trybewarts-login" method="get">
+      <form action="" class="trybewarts-login" method="get">
         <input type="text" name="email" placeholder="Email" id="email">
         <input type="password" name="password" placeholder="Senha" id="senha">
         <button type="submit" id="submitLogin">Entrar</button>
       </form>
     </div>
 
-    </header>
-    <main>
-        <form action="" id="evaluation-form"></form>
-      <img src="images/trybewarts-colored.svg" id=trybewarts-forms-logo  alt="imagem forms">
-      </main>
+  </header>
+  <main>
+    <form action="" method="get" id="evaluation-form">
+      <section>
+        <label id="label-content">
+        Qual conteúdo você está com mais vontade de aprender?
+        </label>
+        <div>
+          <input type="checkbox" name="" value="HoFs">
+          <input type="checkbox" name="" value="Jest">
+          <input type="checkbox" name="" value="Promises">
+          <input type="checkbox" name="" value="React">
+          <input type="checkbox" name="" value="SQL">
+          <input type="checkbox" name="" value="Python">
+        </div>
+      </section>
+    </form>
+    <img src="images/trybewarts-colored.svg" id=trybewarts-forms-logo alt="imagem forms">
+  </main>
 </body>
+
 </html>
