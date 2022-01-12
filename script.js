@@ -1,5 +1,6 @@
 window.onload = () => {
  formLogin()
+ agreement()
 }
 
 function formLogin() {
@@ -14,4 +15,15 @@ function formLogin() {
       alert("Email ou senha inválidos.")
     }
   })
+}
+
+// Requisito 18 \/
+function agreement() {
+  const checkbox = document.querySelector("#agreement");
+  const btn = document.querySelector("#submit-btn");
+  
+  btn.addEventListener("click", (element) => {
+    element.preventDefault();
+  })
+
 }
