@@ -23,4 +23,3 @@ window.onload = () => {
 };
 
 // Requisito 18 \/
-
