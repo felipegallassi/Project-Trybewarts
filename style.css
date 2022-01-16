@@ -1,4 +1,4 @@
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,21 +19,21 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
-} 
+}
 
 #trybewarts-forms-logo {
   height: 500px;
-} 
+}
 
 #section-2 {
   display: flex;
 }
 
 .family {
-    display: flex;
-    flex-direction: column;
-  } 
+  display: flex;
+  flex-direction: column;
+}
 
-  #submit-btn {
-    width: 50px;
-  }
+#submit-btn {
+  width: 50px;
+}
